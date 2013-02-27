@@ -59,8 +59,9 @@ public class Main {
 			
 		}while(choice != 2);//end of do-while
 		
-		System.out.println("Votre score est "+score+"/"+over);
+		System.out.println("Votre score est "+score+"/"+over);//gives user score
 		System.out.println("Merci d'utiliser ce programme!");
+		in.next();//allows user to read their score
 		in.close();//closes Scanner to prevent resource leak
 	}//end bracket for Main
 
