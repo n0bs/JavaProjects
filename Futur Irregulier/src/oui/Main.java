@@ -33,12 +33,12 @@ public class Main {
 		Scanner in = new Scanner(System.in);//initializing scanner
 		int choice;//int to store user menu choices
 		
-		System.out.println("Bienvenue sur le pratique pour les verbs irreguliers en futur!\n");
+		System.out.println("Bienvenue sur la pratique pour les verbs irreguliers au futur!\n");
 		
 		do{
 			
-			System.out.println("1) Donnez-moi une verb!");
-			System.out.println("2) Je suis finis avec le pratique!");
+			System.out.println("1) Donnez-moi un verbe!");
+			System.out.println("2) J'ai fini avec la pratique!");
 			if(used.size()==22)	//Checks for completion of all verbs
 				choice = 2;		//forces user to quit if all verbs are done
 			else
@@ -60,7 +60,7 @@ public class Main {
 		}while(choice != 2);//end of do-while
 		
 		System.out.println("Votre score est "+score+"/"+over);//gives user score
-		System.out.println("Merci d'utiliser ce programme!");
+		System.out.println("Merci pour avoir utilisé ce programme!");
 		in.next();//allows user to read their score
 		in.close();//closes Scanner to prevent resource leak
 	}//end bracket for Main
